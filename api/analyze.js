@@ -22,8 +22,39 @@ export default async function handler(req, res) {
             });
         }
 
+        // Get models available to this API key
+        const modelsResponse = await fetch(
+            "https://generativelanguage.googleapis.com/v1beta/models?key=" + apiKey
+        );
+
+        const modelsData = await modelsResponse.json();
+
+        if (!modelsResponse.ok) {
+            return res.status(modelsResponse.status).json({
+                error: modelsData.error?.message || "Could not fetch available models"
+            });
+        }
+
+        // Find a model that supports generateContent
+        const availableModel = modelsData.models?.find(
+            (model) =>
+                model.supportedGenerationMethods?.includes("generateContent") &&
+                model.name?.includes("flash")
+        );
+
+        if (!availableModel) {
+            return res.status(500).json({
+                error: "No available Gemini model supports generateContent for this API key."
+            });
+        }
+
+        const modelName = availableModel.name;
+
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=" + apiKey,
+            "https://generativelanguage.googleapis.com/v1beta/" +
+            modelName +
+            ":generateContent?key=" +
+            apiKey,
             {
                 method: "POST",
                 headers: {
