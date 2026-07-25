@@ -16,8 +16,14 @@ export default async function handler(req, res) {
 
         const apiKey = process.env.GEMINI_API_KEY;
 
+        if (!apiKey) {
+            return res.status(500).json({
+                error: "GEMINI_API_KEY is not configured"
+            });
+        }
+
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + apiKey,
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=" + apiKey,
             {
                 method: "POST",
                 headers: {
@@ -28,11 +34,18 @@ export default async function handler(req, res) {
                         {
                             parts: [
                                 {
-                                    text: `You are an expert resume reviewer. Analyze the following resume and provide:
+                                    text: `You are an expert resume reviewer.
+
+Analyze the following resume and provide:
+
 1. Overall score out of 100
 2. Strengths
 3. Weaknesses
 4. Specific suggestions for improvement
+5. ATS optimization suggestions
+6. Recommended skills or keywords to add
+
+Give clear, practical, and professional feedback.
 
 Resume:
 ${resumeText}`
