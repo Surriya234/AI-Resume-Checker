@@ -1,4 +1,4 @@
-
+1
 # AI Resume Checker
 
 An AI-powered web application that helps students, fresh graduates, and job seekers review and improve their resumes.
