@@ -126,3 +126,23 @@ The AI is also instructed not to create a completely new resume and to focus on 
 
 ```env
 HF_TOKEN=your_huggingface_token_here
+## 🔮 Future Improvements
+
+Possible future improvements include:
+
+- Resume PDF and DOCX upload
+- Automatic resume text extraction
+- Job description matching
+- Resume-to-job compatibility scoring
+- More detailed ATS analysis
+- Downloadable AI analysis reports
+- Resume template recommendations
+- Multiple language support
+
+## 👤 Author
+
+Created as an individual final project for an AI app development course.
+
+## 📄 License
+
+This project was created for educational and portfolio purposes.
