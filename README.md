@@ -98,21 +98,24 @@ The AI is instructed to:
 - Analyze the resume instead of rewriting it
 
 The AI is also instructed not to create a completely new resume and to focus on actionable feedback.
-## 📸 Screenshots
 
-Screenshots of the application in action will be included here to demonstrate the main interface and AI-generated resume analysis.
+## 📸 Screenshots
 
 ### Screenshot 1 — Main Application Interface
 
-Shows the AI Resume Checker interface where users can enter their resume text.
+The main AI Resume Checker interface where users can enter their resume text and request an AI-powered analysis.
 
-### Screenshot 2 — Resume Analysis
+### Screenshot 2 — AI Resume Analysis
 
-Shows the AI-generated overall score, strengths, weaknesses, and improvement suggestions.
+The AI-generated resume analysis showing the overall score, strengths, weaknesses, and specific improvement suggestions.
 
-### Screenshot 3 — ATS Recommendations
+### Screenshot 3 — ATS Optimization
 
-Shows the AI-generated ATS optimization suggestions and recommended skills and keywords.
+The AI-generated ATS optimization suggestions and recommended skills and keywords to improve the resume.
+
+### Screenshot 4 — Live Application
+
+A view of the deployed AI Resume Checker application running on the live Vercel website.
 
 ## 🚀 How to Run the Project Locally
 
