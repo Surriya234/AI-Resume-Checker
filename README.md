@@ -1,3 +1,4 @@
+<img width="1080" height="2400" alt="1000384651" src="https://github.com/user-attachments/assets/4059033b-8843-4f54-b95a-14e08bebb246" />
 
 # AI Resume Checker
 
@@ -134,7 +135,10 @@ Open the local application URL in a web browser and use the AI Resume Checker.
 
 Possible future improvements include:
 
-- Resume PDF and DOCX upload
+- Resume PDF and DOCX upload<img width="1080" height="2400" alt="1000384642" src="https://github.com/user-attachments/assets/e0988c9b-3a9c-4a78-9413-974d0882abe9" />
+<img width="1080" height="2400" alt="1000384533" src="https://github.com/user-attachments/assets/6c507742-f2b9-479f-9226-53baa4d36099" />
+<img width="1080" height="2400" alt="1000384532" src="https://github.com/user-attachments/assets/0f1a7642-9118-4ca8-aa6d-dd7dc1ee10f2" />
+
 - Automatic resume text extraction
 - Job description matching
 - Resume-to-job compatibility scoring
