@@ -98,18 +98,13 @@ The AI is instructed to:
 - Analyze the resume instead of rewriting it
 
 The AI is also instructed not to create a completely new resume and to focus on actionable feedback.
+
 ## 📸 Screenshots
 
-The following screenshots show the AI Resume Checker application in action.
-
-[View Screenshot 1 — Main Application Interface](./Screenshot_20260727-085952.jpg)
-
-[View Screenshot 2 — AI Resume Analysis](./Screenshot_20260727-090049.jpg)
-
-[View Screenshot 3 — ATS Optimization](./Screenshot_20260727-090059.jpg)
-
-[View Screenshot 4 — Live Application](./Screenshot_20260727-090114.jpg)
-
+- [Screenshot 1](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-085952.jpg)
+- [Screenshot 2](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-090049.jpg)
+- [Screenshot 3](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-090059.jpg)
+- [Screenshot 4](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-090114.jpg)
 ## 🚀 How to Run the Project Locally
 
 1. Clone the public GitHub repository.
