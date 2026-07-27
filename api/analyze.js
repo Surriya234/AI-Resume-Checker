@@ -14,32 +14,46 @@ export default async function handler(req, res) {
             });
         }
 
-        const apiKey = process.env.GEMINI_API_KEY;
+        const token = process.env.HF_TOKEN;
+
+        if (!token) {
+            return res.status(500).json({
+                error: "HF_TOKEN is not configured"
+            });
+        }
 
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + apiKey,
+            "https://router.huggingface.co/v1/chat/completions",
             {
                 method: "POST",
                 headers: {
+                    "Authorization": "Bearer " + token,
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
-                    contents: [
+                    model: "Qwen/Qwen2.5-7B-Instruct",
+                    messages: [
                         {
-                            parts: [
-                                {
-                                    text: `You are an expert resume reviewer. Analyze the following resume and provide:
+                            role: "system",
+                            content: "You are an expert resume reviewer. Give clear, professional and practical feedback."
+                        },
+                        {
+                            role: "user",
+                            content: `Analyze this resume and provide:
+
 1. Overall score out of 100
 2. Strengths
 3. Weaknesses
 4. Specific suggestions for improvement
+5. ATS optimization suggestions
+6. Recommended skills or keywords to add
 
 Resume:
+
 ${resumeText}`
-                                }
-                            ]
                         }
-                    ]
+                    ],
+                    max_tokens: 1000
                 })
             }
         );
@@ -53,7 +67,7 @@ ${resumeText}`
         }
 
         const result =
-            data.candidates?.[0]?.content?.parts?.[0]?.text ||
+            data.choices?.[0]?.message?.content ||
             "No AI feedback received.";
 
         return res.status(200).json({
@@ -62,7 +76,7 @@ ${resumeText}`
 
     } catch (error) {
         return res.status(500).json({
-            error: "Something went wrong."
+            error: error.message || "Something went wrong."
         });
     }
-}
+                    }
