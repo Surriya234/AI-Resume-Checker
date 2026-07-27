@@ -126,6 +126,10 @@ The AI is also instructed not to create a completely new resume and to focus on 
 
 ```env
 HF_TOKEN=your_huggingface_token_here
+Never commit your real Hugging Face token or any other secret API credentials to GitHub.
+Start the project using the appropriate local development server.
+Open the local application URL in a web browser and use the AI Resume Checker.
+
 ## 🔮 Future Improvements
 
 Possible future improvements include:
