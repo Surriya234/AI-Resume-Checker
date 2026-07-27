@@ -52,7 +52,8 @@ HF_TOKEN=your_huggingface_token_here
 ```markdown
 ## 📌 About the Project
 
-Finding out whether a resume is strong enough for a job application can be difficult, especially for students and fresh graduates who may not have professional experience in resume writing.
+Finding out whether a resume is strong enough for a job application can be difficult, especially for students and <img width="1080" height="2400" alt="1000384642" src="https://github.com/user-attachments/assets/947f7479-4d3d-4ce8-90ad-e2be895c30e1" />
+fresh graduates who may not have professional experience in resume writing.
 
 AI Resume Checker solves this problem by allowing users to paste their resume text and receive instant AI-powered feedback.
 
