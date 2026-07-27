@@ -1,3 +1,4 @@
+<img width="1080" height="2400" alt="1000384532" src="https://github.com/user-attachments/assets/c91e360a-8b8e-4cf4-9524-158cbebcc454" />
 <img width="1080" height="2400" alt="1000384651" src="https://github.com/user-attachments/assets/4059033b-8843-4f54-b95a-14e08bebb246" />
 
 # AI Resume Checker 
