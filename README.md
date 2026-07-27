@@ -99,12 +99,21 @@ The AI is instructed to:
 
 The AI is also instructed not to create a completely new resume and to focus on actionable feedback.
 
+
+
 ## 📸 Screenshots
 
-- [Screenshot 1](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-085952.jpg)
-- [Screenshot 2](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-090049.jpg)
-- [Screenshot 3](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-090059.jpg)
-- [Screenshot 4](https://github.com/Surriya234/AI-Resume-Checker/blob/main/Screenshot_20260727-090114.jpg)
+### Screenshot 1 — Main Application Interface
+![Main Application Interface](https://github.com/Surriya234/AI-Resume-Checker/blob/44dabcee1f6fe3c081383fe92da977ca520e9b70/Screenshot_20260727-085952.jpg?raw=true)
+
+### Screenshot 2 — AI Resume Analysis
+![AI Resume Analysis](https://github.com/Surriya234/AI-Resume-Checker/blob/44dabcee1f6fe3c081383fe92da977ca520e9b70/Screenshot_20260727-090049.jpg?raw=true)
+
+### Screenshot 3 — ATS Optimization
+![ATS Optimization](https://github.com/Surriya234/AI-Resume-Checker/blob/44dabcee1f6fe3c081383fe92da977ca520e9b70/Screenshot_20260727-090059.jpg?raw=true)
+
+### Screenshot 4 — Live Application
+![Live Application](https://github.com/Surriya234/AI-Resume-Checker/blob/44dabcee1f6fe3c081383fe92da977ca520e9b70/Screenshot_20260727-090114.jpg?raw=true)
 ## 🚀 How to Run the Project Locally
 
 1. Clone the public GitHub repository.
