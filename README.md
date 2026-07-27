@@ -98,24 +98,17 @@ The AI is instructed to:
 - Analyze the resume instead of rewriting it
 
 The AI is also instructed not to create a completely new resume and to focus on actionable feedback.
-
 ## 📸 Screenshots
 
-### Screenshot 1 — Main Application Interface
+The following screenshots show the AI Resume Checker application in action.
 
-![Main Application Interface](Screenshot_20260727-085952.jpg)
+[View Screenshot 1 — Main Application Interface](./Screenshot_20260727-085952.jpg)
 
-### Screenshot 2 — AI Resume Analysis
+[View Screenshot 2 — AI Resume Analysis](./Screenshot_20260727-090049.jpg)
 
-![AI Resume Analysis](Screenshot_20260727-090049.jpg)
+[View Screenshot 3 — ATS Optimization](./Screenshot_20260727-090059.jpg)
 
-### Screenshot 3 — ATS Optimization
-
-![ATS Optimization](Screenshot_20260727-090059.jpg)
-
-### Screenshot 4 — Live Application
-
-![Live Application](Screenshot_20260727-090114.jpg)
+[View Screenshot 4 — Live Application](./Screenshot_20260727-090114.jpg)
 
 ## 🚀 How to Run the Project Locally
 
