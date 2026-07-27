@@ -1,6 +1,6 @@
 <img width="1080" height="2400" alt="1000384651" src="https://github.com/user-attachments/assets/4059033b-8843-4f54-b95a-14e08bebb246" />
 
-# AI Resume Checker 1
+# AI Resume Checker 
 
 An AI-powered web application that helps students, fresh graduates, and job seekers review and improve their resumes.
 
