@@ -103,19 +103,19 @@ The AI is also instructed not to create a completely new resume and to focus on 
 
 ### Screenshot 1 — Main Application Interface
 
-![Main Application Interface](./Screenshot_20260727-085952.jpg)
+![Main Application Interface](Screenshot_20260727-085952.jpg)
 
 ### Screenshot 2 — AI Resume Analysis
 
-![AI Resume Analysis](./Screenshot_20260727-090049.jpg)
+![AI Resume Analysis](Screenshot_20260727-090049.jpg)
 
 ### Screenshot 3 — ATS Optimization
 
-![ATS Optimization](./Screenshot_20260727-090059.jpg)
+![ATS Optimization](Screenshot_20260727-090059.jpg)
 
 ### Screenshot 4 — Live Application
 
-![Live Application](./Screenshot_20260727-090114.jpg)
+![Live Application](Screenshot_20260727-090114.jpg)
 
 ## 🚀 How to Run the Project Locally
 
